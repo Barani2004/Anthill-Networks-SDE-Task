@@ -1,0 +1,91 @@
+/* Container styles */
+.add-deal-container {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 10px;
+  }
+  
+  /* Form styling */
+  .add-deal-form {
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: white;
+    color: brown;
+  }
+  
+  /* Header styling */
+  .add-deal-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .add-deal-logo {
+    width: 20%;
+    border-radius: 10px;
+  }
+  
+  .add-deal-heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Form input styling */
+  .add-deal-form-control {
+    margin-bottom: 15px;
+  }
+  
+  .add-deal-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  /* Buttons */
+  .add-deal-button {
+    width: 100%;
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-deal-button:hover {
+    background-color: #ff1493;
+  }
+  
+  .add-deal-back-button {
+    background-color: orange;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .add-deal-back-button:hover {
+    background-color: darkorange;
+  }
+  
+  /* Form layout */
+  .add-deal-form-sections {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .add-deal-section {
+    width: 49%;
+  }
+  

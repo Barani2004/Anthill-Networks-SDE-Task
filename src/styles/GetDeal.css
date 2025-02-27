@@ -1,0 +1,95 @@
+/* Container styling */
+.get-deal-container {
+    padding-top: 100px;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  /* Top Section (Logo + Buttons) */
+  .get-deal-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+    margin-right: 5%;
+    gap: 40px;
+  }
+  
+  .get-deal-logo {
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  /* Table styling */
+  .get-deal-table-container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .get-deal-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .get-deal-table th,
+  .get-deal-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .get-deal-table th {
+    background-color: #ff69b4;
+    color: white;
+  }
+  
+  .get-deal-table td {
+    color: #333;
+  }
+  
+  /* Action buttons */
+  .get-deal-button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-deal-edit {
+    background-color: green;
+    color: white;
+  }
+  
+  .get-deal-edit:hover {
+    background-color: darkgreen;
+  }
+  
+  .get-deal-delete {
+    background-color: red;
+    color: white;
+  }
+  
+  .get-deal-delete:hover {
+    background-color: darkred;
+  }
+  
+  /* Image styling */
+  .get-deal-product-image {
+    width: 100px;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .get-deal-header {
+      flex-direction: column;
+      align-items: center;
+      margin-right: 0;
+    }
+  
+    .get-deal-table-container {
+      width: 100%;
+      overflow-x: auto;
+    }
+  }
+  
